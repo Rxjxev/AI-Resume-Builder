@@ -17,52 +17,45 @@ This project consists of a **React + Vite frontend** and a **Node.js + Express b
 
 ## 📂 Folder Structure
 
+```yaml
 resume-builder/
 │
 ├── client/ # Frontend (React + Vite)
-│ ├── src/ # Components, pages, assets
-│ ├── package.json # Frontend dependencies
-│ └── vite.config.js
+│   ├── src/ # Components, pages, assets
+│   ├── package.json # Frontend dependencies
+│   └── vite.config.js
 │
 ├── server/ # Backend (Node.js + Express)
-│ ├── routes/ # API routes
-│ ├── models/ # Database models (MongoDB)
-│ ├── controllers/ # Backend logic
-│ ├── .env # Environment variables (not uploaded)
-│ └── package.json # Backend dependencies
+│   ├── routes/ # API routes
+│   ├── models/ # Database models (MongoDB)
+│   ├── controllers/ # Backend logic
+│   ├── .env # Environment variables (not uploaded)
+│   └── package.json # Backend dependencies
 │
 └── README.md # Project documentation
+🚀 Features
+🧾 AI-generated resume content
 
-yaml
+🎨 Multiple resume templates
+
+☁️ Image upload and storage (ImageKit API)
+
+⚡ Fast frontend with React + Vite
+
+🔒 Secure backend using Express and environment variables
+
+🧠 Easy to configure and run locally
+
+🧰 Tech Stack
+Layer	Technologies
+Frontend	React, Vite, Axios, Tailwind CSS
+Backend	Node.js, Express, MongoDB, ImageKit
+Tools	npm, Git, dotenv
+
+⚙️ Setup Instructions (Local Development)
+🔹 Step 1: Clone the Repository
+bash
 Copy code
-
----
-
-## 🚀 Features
-
-- 🧾 AI-generated resume content  
-- 🎨 Multiple resume templates  
-- ☁️ Image upload and storage (ImageKit API)  
-- ⚡ Fast frontend with React + Vite  
-- 🔒 Secure backend using Express and environment variables  
-- 🧠 Easy to configure and run locally  
-
----
-
-## 🧰 Tech Stack
-
-| Layer | Technologies |
-|-------|---------------|
-| Frontend | React, Vite, Axios, Tailwind CSS |
-| Backend | Node.js, Express, MongoDB, ImageKit |
-| Tools | npm, Git, dotenv |
-
----
-
-## ⚙️ Setup Instructions (Local Development)
-
-### 🔹 Step 1: Clone the Repository
-```bash
 git clone https://github.com/Rxjxev/AI-Resume-Builder.git
 cd AI-Resume-Builder
 🔹 Step 2: Setup the Backend (Server)
@@ -117,8 +110,6 @@ Data is rendered in real-time as a professional resume.
 Users can download or preview their resume directly.
 
 Backend handles image uploads and secure API interactions.
-
-
 
 👥 Contributors
 Name	GitHub Profile
