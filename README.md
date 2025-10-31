@@ -1,4 +1,4 @@
-# 🧠 AI Resume Builder
+# 🧠 **AI Resume Builder**
 
 ![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Bundler-Vite-646CFF?logo=vite)
@@ -38,6 +38,8 @@ This project consists of a **React + Vite frontend** and a **Node.js + Express b
 
 ## ⚙️ **Setup Instructions (Local Development)**
 
+---
+
 ### 🔹 **Step 1: Clone the Repository**
 
 ```bash
@@ -57,16 +59,20 @@ npm install
 **Create a `.env` file** inside the `server` folder and add your API keys:
 
 ```ini
-IMAGEKIT_PUBLIC_KEY=your_public_key_here
-IMAGEKIT_PRIVATE_KEY=your_private_key_here
-MONGO_URI=your_mongodb_connection_here
+JWT_SECRET=your_secret_key_here
+MONGODB_URI=your_mongodb_connection_string_here
+IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key_here
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_BASE_URL=your_openai_base_url_here
+OPENAI_MODEL=your_openai_model_name_here
 PORT=5000
+
 ```
 
 **Start the backend server:**
 
 ```bash
-npm start
+npm run server
 ```
 
 Backend will run on:
@@ -112,10 +118,10 @@ node_modules
 
 ## 👥 **Contributors**
 
-| **Name**     | **GitHub Profile**                                   |
-| ------------ | ---------------------------------------------------- |
-| Rajeev Yadav | [@Rxjxev](https://github.com/Rxjxev)                 |
-| Shivam Singh | [@23-shivamsingh](https://github.com/23-shivamsingh) |
+| **Name**         | **GitHub Profile**                                   |
+| ---------------- | ---------------------------------------------------- |
+| **Rajeev Yadav** | [@Rxjxev](https://github.com/Rxjxev)                 |
+| **Shivam Singh** | [@23-shivamsingh](https://github.com/23-shivamsingh) |
 
 ---
 
